@@ -1,0 +1,42 @@
+Before proceeding, a few notes - 
+1. make sure you have the 'tkinter' module for python3 installed
+2. you are using latest c++ compiler version ( should support c++11 standard)
+
+
+
+To use GUI - 
+	
+1. Run the python3 script GUI.py
+
+	In linux terminal -> python3 GUI.py
+
+2. A file browser window will open up.
+
+3. Navigate & open the file to be compressed( file has to be .txt format)
+
+
+
+To execute C++ file directly - 
+
+1. Make the directory in which zipper.cpp is present as working directory.
+
+2. (This can be skipped as the compiled executable is provided in the submission files) 
+   Compile the file zipper.cpp and name executable file as 'zipper'
+
+	in linux terminal -> g++ zipper.cpp -o zipper
+ 
+3. Run the executable with the filename(or absolute/relative address of the file to be compressed) as argument
+	
+	for eg if test.txt has to compressed and is present in working directory 
+	In terminal -> ./zipper test.txt
+
+
+* The results of various coding schemes will appear at the same terminal instance(command prompt for windows)
+
+* Compressed binary files will be saved in the working directory for various applied coding schemes
+	(huff_comp.dat -> compressed file from huffman coding, 
+	 shannon_comp.dat -> compressed file from shannon coding, 
+	 shanfano_comp.dat -> compressed file from shannon-fano coding)
+
+* Encoded bitstrings corresponding to various coding schemes will be saved in working directory.
+	
